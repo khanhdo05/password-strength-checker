@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { PasswordStrengthChecker } from './PasswordStrengthChecker.ts'
+import {isOnlyNumbers, PasswordStrengthChecker, PasswordStrengthScoring} from './PasswordStrengthChecker.ts'
 
 describe("password is very weak", () => {
     test("default empty input", () => {

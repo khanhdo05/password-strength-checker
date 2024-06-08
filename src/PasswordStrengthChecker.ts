@@ -6,7 +6,11 @@ const StrengthScoreEvaluation = [
     {score: 0, strength: "very weak"}
 ]
 
-function isOnlyNumbers(str: string): boolean {
+// Bonus
+
+// Penalty
+
+export function isOnlyNumbers(str: string): boolean {
     const regex = /^\d+$/;
     return regex.test(str);
 }
@@ -28,10 +32,16 @@ function BasedOnLengthGivesBaseScore(password: string) {
             return 0
         }
         case (length < 6): {
-            return 24
+            return 25
         }
         case (length >= 6 && length <= 8): {
-            return 49
+            return 50
+        }
+        case (length > 8 && length <= 12): {
+            return 75
+        }
+        case (length > 12): {
+            return 100
         }
         default: {
             return 0
@@ -41,22 +51,23 @@ function BasedOnLengthGivesBaseScore(password: string) {
 
 function DecreaseScoreIfSameCharacterType(password: string) {
     if (isOnlyNumbers(password)) {
-        return -24
+        return -50
     } else if (isOnlyUppercase(password) || isOnlyLowercase(password)) {
-        return -49
+        return -50
     }
     return 0
 }
 
-function PasswordStrengthScoring(password: string) {
+export function PasswordStrengthScoring(password: string) {
     let score = 0
+    // TODO score += BasedOnLengthGivesBaseScore(password) + ScorePenalty(password) + ScoreBonus(password)
     score += BasedOnLengthGivesBaseScore(password) + DecreaseScoreIfSameCharacterType(password)
     return score
 }
 
 export function PasswordStrengthChecker(password: string) {
     const score : number = PasswordStrengthScoring(password)
-    const scoreEvaluationPair = StrengthScoreEvaluation.find(pair => score >= pair.score)
+    const scoreEvaluationPair = StrengthScoreEvaluation.find(pair => score > pair.score)
 
     // null check
     if (!scoreEvaluationPair) {
