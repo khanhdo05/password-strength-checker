@@ -1,8 +1,10 @@
 class PasswordStrengthChecker {
     public readonly password:string
+    public feedback: string[]
 
     public constructor(password:string) {
         this.password = password
+        this.feedback = []
     }
 
     private isLongerThan7(): boolean {
