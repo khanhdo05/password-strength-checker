@@ -2,6 +2,14 @@
 
 A simple application to check the strength of a password based on various criteria.
 
+```angular2html
+$ git clone git@github.com:khanhdo05/password-strength-checker.git
+$ cd password-strength-checker
+$ npm install pnpm
+$ pnpm install
+$ pnpm dev
+```
+
 ## Kata Description
 
 Following this Kata [Part 1](https://agileforall.com/the-password-strength-checker-design-kata-part-1/), [Part 2](https://agileforall.com/the-password-strength-checker-design-kata-part-2/)

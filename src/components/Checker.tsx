@@ -6,7 +6,7 @@ import {
     TextField
 } from "@mui/material";
 import PasswordStrengthChecker from "../utils/passwordStrengthChecker.ts";
-import React, {ChangeEvent, useState} from "react";
+import {ChangeEvent, useState} from "react";
 
 export default function Checker() {
     const [isAdmin, setIsAdmin] = useState<boolean>(false);
