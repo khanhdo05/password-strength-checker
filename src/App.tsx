@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import {Typography} from "@mui/material";
 import Checker from "./components/Checker.tsx";
@@ -11,7 +10,7 @@ function App() {
                 Password Strength Checker
             </Typography>
             <h2>
-                Please enter your password in the below box
+                Please enter your password below, click Admin (optionally)
             </h2>
         </div>
       <div className="password-strength-checker-container">
