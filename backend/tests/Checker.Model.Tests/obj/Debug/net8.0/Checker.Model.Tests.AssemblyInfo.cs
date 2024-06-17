@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Checker.Model.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5eaa21bf79290380d3312b5543660a178ad69244")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a01c397b5feeab98d8f5c3c6398ce04776e26f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Checker.Model.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Checker.Model.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

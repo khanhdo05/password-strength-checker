@@ -1,0 +1,12 @@
+/Users/khanhdo05/dev/password-strength-checker/backend/src/Checker.Model/bin/Debug/net8.0/Checker.Model.deps.json
+/Users/khanhdo05/dev/password-strength-checker/backend/src/Checker.Model/bin/Debug/net8.0/Checker.Model.dll
+/Users/khanhdo05/dev/password-strength-checker/backend/src/Checker.Model/bin/Debug/net8.0/Checker.Model.pdb
+/Users/khanhdo05/dev/password-strength-checker/backend/src/Checker.Model/obj/Debug/net8.0/Checker.Model.GeneratedMSBuildEditorConfig.editorconfig
+/Users/khanhdo05/dev/password-strength-checker/backend/src/Checker.Model/obj/Debug/net8.0/Checker.Model.AssemblyInfoInputs.cache
+/Users/khanhdo05/dev/password-strength-checker/backend/src/Checker.Model/obj/Debug/net8.0/Checker.Model.AssemblyInfo.cs
+/Users/khanhdo05/dev/password-strength-checker/backend/src/Checker.Model/obj/Debug/net8.0/Checker.Model.csproj.CoreCompileInputs.cache
+/Users/khanhdo05/dev/password-strength-checker/backend/src/Checker.Model/obj/Debug/net8.0/Checker.Model.sourcelink.json
+/Users/khanhdo05/dev/password-strength-checker/backend/src/Checker.Model/obj/Debug/net8.0/Checker.Model.dll
+/Users/khanhdo05/dev/password-strength-checker/backend/src/Checker.Model/obj/Debug/net8.0/refint/Checker.Model.dll
+/Users/khanhdo05/dev/password-strength-checker/backend/src/Checker.Model/obj/Debug/net8.0/Checker.Model.pdb
+/Users/khanhdo05/dev/password-strength-checker/backend/src/Checker.Model/obj/Debug/net8.0/ref/Checker.Model.dll

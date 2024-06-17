@@ -1708,6 +1708,16 @@
         "build": {
           "build/net6.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Checker.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Checker.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Checker.Model.dll": {}
+        }
       }
     }
   },
@@ -5497,10 +5507,16 @@
         "xunit.runner.visualstudio.2.5.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Checker.Model/1.0.0": {
+      "type": "project",
+      "path": "../../src/Checker.Model/Checker.Model.csproj",
+      "msbuildProject": "../../src/Checker.Model/Checker.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Checker.Model >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
       "coverlet.collector >= 6.0.0",
       "xunit >= 2.5.3",
@@ -5531,7 +5547,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/khanhdo05/dev/password-strength-checker/backend/src/Checker.Model/Checker.Model.csproj": {
+              "projectPath": "/Users/khanhdo05/dev/password-strength-checker/backend/src/Checker.Model/Checker.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
