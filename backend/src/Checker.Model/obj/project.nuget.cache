@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7AYQYMkNgAo2aEpmFT7HIvooD2CwZwJh8nWD4z9XPZ0NQ5vLnh+RxxDMQX7+DzfgJuBpPABv7e6p0Nz2HAhvkQ==",
+  "dgSpecHash": "EoZs5ylt29w6IaqETeFuUYkmuYp/h5l2xgVBxKnT74FqcW0T4FdZ+BJOMOKazMy3bat69JxoSFiqkg0BTPBoeQ==",
   "success": true,
-  "projectFilePath": "/Users/khanhdo05/dev/password-strength-checker/backend/src/Checker.Model/Checker.Model.csproj",
+  "projectFilePath": "/home/khoai/dev/password-strength-checker/backend/src/Checker.Model/Checker.Model.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

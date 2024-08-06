@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/Users/khanhdo05/.nuget/packages/": {}
+    "/home/khoai/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/khanhdo05/dev/password-strength-checker/backend/src/Checker.Model/Checker.Model.csproj",
+      "projectUniqueName": "/home/khoai/dev/password-strength-checker/backend/src/Checker.Model/Checker.Model.csproj",
       "projectName": "Checker.Model",
-      "projectPath": "/Users/khanhdo05/dev/password-strength-checker/backend/src/Checker.Model/Checker.Model.csproj",
-      "packagesPath": "/Users/khanhdo05/.nuget/packages/",
-      "outputPath": "/Users/khanhdo05/dev/password-strength-checker/backend/src/Checker.Model/obj/",
+      "projectPath": "/home/khoai/dev/password-strength-checker/backend/src/Checker.Model/Checker.Model.csproj",
+      "packagesPath": "/home/khoai/.nuget/packages/",
+      "outputPath": "/home/khoai/dev/password-strength-checker/backend/src/Checker.Model/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/khanhdo05/.nuget/NuGet/NuGet.Config"
+        "/home/khoai/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/khoai/.dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
