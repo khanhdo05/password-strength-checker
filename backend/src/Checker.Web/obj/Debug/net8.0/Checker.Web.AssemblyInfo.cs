@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Checker.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+011ff49908d6a184f8cc235882e4767b39dc85a2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61c12da40d113fd3573b9fe3572200caa741355e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Checker.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Checker.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
