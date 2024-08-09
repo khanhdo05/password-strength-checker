@@ -1,5 +1,3 @@
-using Xunit.Abstractions;
-
 namespace Checker.Model.Tests;
 
 public class CheckerAdminModeTests
@@ -8,8 +6,8 @@ public class CheckerAdminModeTests
     // bool admin is true to test admin mode
     private static void AssertCorrectStrength(string password, bool expectedStrength)
     {
-        var checker = new Checker(password);
-        Assert.Equal(checker.IsStrong(true), expectedStrength);
+        var checker = new StrengthChecker(password, true);
+        Assert.Equal(checker.IsStrong(), expectedStrength);
     }
     
     // Weak Password

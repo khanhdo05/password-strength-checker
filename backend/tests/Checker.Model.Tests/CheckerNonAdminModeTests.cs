@@ -6,8 +6,8 @@ public class CheckerNonAdminModeTests
     // bool admin is false to test non-admin mode
     private static void AssertCorrectStrength(string password, bool expectedStrength)
     {
-        var checker = new Checker(password);
-        Assert.Equal(checker.IsStrong(false), expectedStrength);
+        var checker = new StrengthChecker(password, false);
+        Assert.Equal(checker.IsStrong(), expectedStrength);
     }
     
     // Weak Password
